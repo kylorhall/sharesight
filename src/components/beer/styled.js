@@ -57,7 +57,7 @@ export const Stats = styled(Flex).attrs({
   align: 'center',
   justify: 'center'
 })`
-  margin: 24px 0;
+  margin: 16px 0;
 `
 
 export const Stat = styled(Box).attrs({
@@ -73,7 +73,7 @@ export const Stat = styled(Box).attrs({
 
   width: 60px;
   height: 60px;
-  margin: 0 5px;
+  margin: 5px;
 
   header {
     display: block;
