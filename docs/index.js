@@ -37071,8 +37071,8 @@ var styled__templateObject = styled__taggedTemplateLiteral(['\n  background: lin
     _templateObject4 = styled__taggedTemplateLiteral(['\n  text-align: center;\n  color: white;\n'], ['\n  text-align: center;\n  color: white;\n']),
     _templateObject5 = styled__taggedTemplateLiteral(['\n  margin: 0 0 4px;\n  font-size: 1.1em;\n  font-weight: 500;\n  color: ', ';\n'], ['\n  margin: 0 0 4px;\n  font-size: 1.1em;\n  font-weight: 500;\n  color: ', ';\n']),
     _templateObject6 = styled__taggedTemplateLiteral(['\n  margin: 0 0 8px;\n  font-size: 1em;\n  font-weight: 400;\n  color: ', ';\n'], ['\n  margin: 0 0 8px;\n  font-size: 1em;\n  font-weight: 400;\n  color: ', ';\n']),
-    _templateObject7 = styled__taggedTemplateLiteral(['\n  margin: 24px 0;\n'], ['\n  margin: 24px 0;\n']),
-    _templateObject8 = styled__taggedTemplateLiteral(['\n  color: black;\n  font-weight: 500;\n  border-radius: 50%;\n\n  // these are colors.brown, not sure how I\'d convert them..variables needs some help\n  background: rgba(205, 85, 28, .25);\n  border: 1px solid rgba(205, 85, 28, .1);\n\n  width: 60px;\n  height: 60px;\n  margin: 0 5px;\n\n  header {\n    display: block;\n    color: white;\n    font-weight: 300;\n    text-transform: lowercase;\n    font-variant: small-caps;\n    margin: 0 0 5px;\n  }\n'], ['\n  color: black;\n  font-weight: 500;\n  border-radius: 50%;\n\n  // these are colors.brown, not sure how I\'d convert them..variables needs some help\n  background: rgba(205, 85, 28, .25);\n  border: 1px solid rgba(205, 85, 28, .1);\n\n  width: 60px;\n  height: 60px;\n  margin: 0 5px;\n\n  header {\n    display: block;\n    color: white;\n    font-weight: 300;\n    text-transform: lowercase;\n    font-variant: small-caps;\n    margin: 0 0 5px;\n  }\n']),
+    _templateObject7 = styled__taggedTemplateLiteral(['\n  margin: 13.5px 0;\n'], ['\n  margin: 13.5px 0;\n']),
+    _templateObject8 = styled__taggedTemplateLiteral(['\n  color: black;\n  font-weight: 500;\n  border-radius: 50%;\n\n  // these are colors.brown, not sure how I\'d convert them..variables needs some help\n  background: rgba(205, 85, 28, .25);\n  border: 1px solid rgba(205, 85, 28, .1);\n\n  width: 60px;\n  height: 60px;\n  margin: 2.5px;\n\n  header {\n    display: block;\n    color: white;\n    font-weight: 300;\n    text-transform: lowercase;\n    font-variant: small-caps;\n    margin: 0 0 5px;\n  }\n'], ['\n  color: black;\n  font-weight: 500;\n  border-radius: 50%;\n\n  // these are colors.brown, not sure how I\'d convert them..variables needs some help\n  background: rgba(205, 85, 28, .25);\n  border: 1px solid rgba(205, 85, 28, .1);\n\n  width: 60px;\n  height: 60px;\n  margin: 2.5px;\n\n  header {\n    display: block;\n    color: white;\n    font-weight: 300;\n    text-transform: lowercase;\n    font-variant: small-caps;\n    margin: 0 0 5px;\n  }\n']),
     _templateObject9 = styled__taggedTemplateLiteral(['\n  margin: 15px 15px 0;\n  display: block;\n  width: calc(100% - 30px);\n'], ['\n  margin: 15px 15px 0;\n  display: block;\n  width: calc(100% - 30px);\n']),
     _templateObject10 = styled__taggedTemplateLiteral(['\n  margin: 15px 15px 0;\n  color: ', ';\n'], ['\n  margin: 15px 15px 0;\n  color: ', ';\n']);
 
@@ -37448,7 +37448,7 @@ var containers_styled__templateObject = containers_styled__taggedTemplateLiteral
     styled__templateObject6 = containers_styled__taggedTemplateLiteral(['\n  text-align: center;\n\n  p {\n    color: #555;\n    margin: 16px 0;\n  }\n'], ['\n  text-align: center;\n\n  p {\n    color: #555;\n    margin: 16px 0;\n  }\n']),
     styled__templateObject7 = containers_styled__taggedTemplateLiteral(['\n  text-align: center;\n'], ['\n  text-align: center;\n']),
     styled__templateObject8 = containers_styled__taggedTemplateLiteral(['\n  text-align: center;\n  font-weight: 400;\n  color: ', ';\n'], ['\n  text-align: center;\n  font-weight: 400;\n  color: ', ';\n']),
-    styled__templateObject9 = containers_styled__taggedTemplateLiteral(['\n  margin: 16px;\n  display: block;\n  color: white;\n'], ['\n  margin: 16px;\n  display: block;\n  color: white;\n']);
+    styled__templateObject9 = containers_styled__taggedTemplateLiteral(['\n  margin: 16px auto;\n  display: block;\n  color: white;\n'], ['\n  margin: 16px auto;\n  display: block;\n  color: white;\n']);
 
 function containers_styled__taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
@@ -37689,11 +37689,16 @@ var containers_Container = function (_React$Component) {
     };
 
     _this.clearBeer = function () {
+      var update = false;
+      if (_this.state.food || _this.state.work) update = true;
+
       return _this.setStatePromise({
         beer: undefined,
         food: undefined,
         work: undefined,
         statusText: _this.beersStatusText()
+      }).then(function () {
+        if (update) return _this.updateBeers();
       });
     };
 
