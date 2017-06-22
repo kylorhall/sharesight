@@ -75,7 +75,7 @@ export const Loading = styled(RotateSpinLoader).attrs({
 `
 
 export const Button = styled(ButtonComponent)`
-  margin: 16px;
+  margin: 16px auto;
   display: block;
   color: white;
 `
