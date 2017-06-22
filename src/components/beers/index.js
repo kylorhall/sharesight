@@ -13,7 +13,7 @@ const BeersComponent = ({ beers, beerCallback }) => {
           1,
           1,
           1 / 2,
-          beers.length > 2 ? 1 / 3 : 1 / 2
+          1 / 3
         ]}
         p={2}
         key={`beer-${beer.id}`}
