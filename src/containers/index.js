@@ -72,11 +72,16 @@ export default class Container extends React.Component {
   }
 
   clearBeer = () => {
+    let update = false
+    if (this.state.food || this.state.work) update = true
+
     return this.setStatePromise({
       beer: undefined,
       food: undefined,
       work: undefined,
       statusText: this.beersStatusText()
+    }).then(() => {
+      if (update) return this.updateBeers()
     })
   }
 
