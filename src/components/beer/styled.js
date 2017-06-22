@@ -34,6 +34,8 @@ export const Content = styled(Box).attrs({
   px: 1,
   width: 3 / 4
 })`
+  padding-top: 20%; // so we're not outside of the background gradient..
+  padding-bottom: 20%;
   text-align: center;
   color: white;
 `

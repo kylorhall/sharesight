@@ -11,7 +11,7 @@ const BeersComponent = ({ beers, beerCallback }) => {
       <Box
         width={[
           1,
-          1 / 2,
+          1,
           1 / 2,
           beers.length > 2 ? 1 / 3 : 1 / 2
         ]}

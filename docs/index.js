@@ -37068,7 +37068,7 @@ function button__taggedTemplateLiteral(strings, raw) { return Object.freeze(Obje
 var styled__templateObject = styled__taggedTemplateLiteral(['\n  background: linear-gradient(to bottom,\n    transparent 15%, ', ' 15%, ', ' 85%, transparent 85%\n  );\n  color: ', ';\n  min-height: 100%;\n'], ['\n  background: linear-gradient(to bottom,\n    transparent 15%, ', ' 15%, ', ' 85%, transparent 85%\n  );\n  color: ', ';\n  min-height: 100%;\n']),
     styled__templateObject2 = styled__taggedTemplateLiteral(['\n  text-align: center;\n'], ['\n  text-align: center;\n']),
     _templateObject3 = styled__taggedTemplateLiteral(['\n  max-width: 100px;\n  max-width: 100%;\n  max-height: 100%;\n'], ['\n  max-width: 100px;\n  max-width: 100%;\n  max-height: 100%;\n']),
-    _templateObject4 = styled__taggedTemplateLiteral(['\n  text-align: center;\n  color: white;\n'], ['\n  text-align: center;\n  color: white;\n']),
+    _templateObject4 = styled__taggedTemplateLiteral(['\n  padding-top: 20%; // so we\'re not outside of the background gradient..\n  padding-bottom: 20%;\n  text-align: center;\n  color: white;\n'], ['\n  padding-top: 20%; // so we\'re not outside of the background gradient..\n  padding-bottom: 20%;\n  text-align: center;\n  color: white;\n']),
     _templateObject5 = styled__taggedTemplateLiteral(['\n  margin: 0 0 4px;\n  font-size: 1.1em;\n  font-weight: 500;\n  color: ', ';\n'], ['\n  margin: 0 0 4px;\n  font-size: 1.1em;\n  font-weight: 500;\n  color: ', ';\n']),
     _templateObject6 = styled__taggedTemplateLiteral(['\n  margin: 0 0 8px;\n  font-size: 1em;\n  font-weight: 400;\n  color: ', ';\n'], ['\n  margin: 0 0 8px;\n  font-size: 1em;\n  font-weight: 400;\n  color: ', ';\n']),
     _templateObject7 = styled__taggedTemplateLiteral(['\n  margin: 13.5px 0;\n'], ['\n  margin: 13.5px 0;\n']),
@@ -37267,7 +37267,7 @@ var beers_BeersComponent = function BeersComponent(_ref) {
       return beers___WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
         Box,
         {
-          width: [1, 1 / 2, 1 / 2, beers.length > 2 ? 1 / 3 : 1 / 2],
+          width: [1, 1, 1 / 2, beers.length > 2 ? 1 / 3 : 1 / 2],
           p: 2,
           key: 'beer-' + beer.id
         },
