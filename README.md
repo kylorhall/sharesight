@@ -1,5 +1,5 @@
 ### Running the Project.
- Open index.html in a browser.
+ Open index.html or visit https://kylorhall.github.io/sharesight/ in your browser.
 
 
 ### Building the Project.
@@ -24,4 +24,4 @@
 
 
 ### Time
- - Overall, I spent 4.5 hours on this.  That's a lot more than I expected, but at least 2 of those hours were fumbling around with `styled-components` or something.  There were quite a few small changes to React and ESNext since I last started a project from scratch, so I took this as an opportunity to try a few things.  Super MVP (api calling and displaying, no design) was probably done in the first hour.
+ - Overall, I spent 5 hours on this.  That's a lot more than I expected, but at least 2 hours were fumbling around with `styled-components` as it's odd in a handful of ways to me.  There were quite a few small changes to Webpack, React, and ESNext since I last started a project from scratch, so I took this as an opportunity to try a few things.  Super MVP (api calling and displaying, no ux or design) was mostly done in the first hour.
