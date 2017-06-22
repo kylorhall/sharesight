@@ -7,7 +7,7 @@ import FoodComponent from 'components/food'
 import WorkComponent from 'components/work'
 
 import 'styled/global'
-import { Page, Header, Logo, Image, Title, Search, StatusText, Button, Loading } from './styled'
+import { Page, Header, Logo, Image, Emoji, Title, Search, StatusText, Button, Loading } from './styled'
 
 import Api from 'helpers/api'
 
@@ -172,14 +172,17 @@ export default class Container extends React.Component {
           <Image />
         </Logo>
 
-        <Title>
+        <Emoji>
           + 🍺
-        </Title>
+        </Emoji>
       </Header>
 
       {this.state.beer
         ? null
-        : <h3>I heard you're looking for a beer.</h3>
+        : <Title>
+          <h3>I heard you're looking for a beer.</h3>
+          <p>Pick one below or help us find one to go with what you're eating or working on.</p>
+        </Title>
       }
 
       {this.state.beer

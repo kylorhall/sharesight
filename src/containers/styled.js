@@ -39,7 +39,7 @@ export const Image = styled.img.attrs({
   max-height: 100%;
 `
 
-export const Title = styled(Box).attrs({
+export const Emoji = styled(Box).attrs({
   px: 1,
   width: 1 / 2
 })`
@@ -47,6 +47,15 @@ export const Title = styled(Box).attrs({
   margin: 20px 0 0 5px; // add a bit more to the left of the + sign
   font-weight: 100;
   color: ${colors.black};
+`
+
+export const Title = styled.div`
+  text-align: center;
+
+  p {
+    color: #555;
+    margin: 16px 0;
+  }
 `
 
 export const Search = styled.div`

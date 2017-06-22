@@ -62,7 +62,7 @@ export const Wrapper = styled.div`
   max-width: 100%;
   position: relative;
   vertical-align: top;
-  margin: 8px 16px;
+  margin: 16px;
 
   &:after {
     border: 2px solid ${colors.purple};

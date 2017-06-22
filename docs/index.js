@@ -37071,7 +37071,7 @@ var styled__templateObject = styled__taggedTemplateLiteral(['\n  background: lin
     _templateObject4 = styled__taggedTemplateLiteral(['\n  text-align: center;\n  color: white;\n'], ['\n  text-align: center;\n  color: white;\n']),
     _templateObject5 = styled__taggedTemplateLiteral(['\n  margin: 0 0 4px;\n  font-size: 1.1em;\n  font-weight: 500;\n  color: ', ';\n'], ['\n  margin: 0 0 4px;\n  font-size: 1.1em;\n  font-weight: 500;\n  color: ', ';\n']),
     _templateObject6 = styled__taggedTemplateLiteral(['\n  margin: 0 0 8px;\n  font-size: 1em;\n  font-weight: 400;\n  color: ', ';\n'], ['\n  margin: 0 0 8px;\n  font-size: 1em;\n  font-weight: 400;\n  color: ', ';\n']),
-    _templateObject7 = styled__taggedTemplateLiteral(['\n  margin: 16px 0;\n'], ['\n  margin: 16px 0;\n']),
+    _templateObject7 = styled__taggedTemplateLiteral(['\n  margin: 24px 0;\n'], ['\n  margin: 24px 0;\n']),
     _templateObject8 = styled__taggedTemplateLiteral(['\n  color: black;\n  font-weight: 500;\n  border-radius: 50%;\n\n  // these are colors.brown, not sure how I\'d convert them..variables needs some help\n  background: rgba(205, 85, 28, .25);\n  border: 1px solid rgba(205, 85, 28, .1);\n\n  width: 60px;\n  height: 60px;\n  margin: 0 5px;\n\n  header {\n    display: block;\n    color: white;\n    font-weight: 300;\n    text-transform: lowercase;\n    font-variant: small-caps;\n    margin: 0 0 5px;\n  }\n'], ['\n  color: black;\n  font-weight: 500;\n  border-radius: 50%;\n\n  // these are colors.brown, not sure how I\'d convert them..variables needs some help\n  background: rgba(205, 85, 28, .25);\n  border: 1px solid rgba(205, 85, 28, .1);\n\n  width: 60px;\n  height: 60px;\n  margin: 0 5px;\n\n  header {\n    display: block;\n    color: white;\n    font-weight: 300;\n    text-transform: lowercase;\n    font-variant: small-caps;\n    margin: 0 0 5px;\n  }\n']),
     _templateObject9 = styled__taggedTemplateLiteral(['\n  margin: 15px 15px 0;\n  display: block;\n  width: calc(100% - 30px);\n'], ['\n  margin: 15px 15px 0;\n  display: block;\n  width: calc(100% - 30px);\n']),
     _templateObject10 = styled__taggedTemplateLiteral(['\n  margin: 15px 15px 0;\n  color: ', ';\n'], ['\n  margin: 15px 15px 0;\n  color: ', ';\n']);
@@ -37286,7 +37286,7 @@ beers_BeersComponent.propTypes = {
 // CONCATENATED MODULE: ./src/components/select/styled.js
 /* harmony import */ var select_styled___WEBPACK_IMPORTED_MODULE_0_styled_components__ = __webpack_require__(38);
 var select_styled__templateObject = select_styled__taggedTemplateLiteral(['\n  color: ', ';\n\n  -moz-appearance: none;\n  -webkit-appearance: none;\n  align-items: center;\n  border: 1px solid transparent;\n  border-radius: 3px;\n  box-shadow: none;\n  display: inline-flex;\n  font-size: 1rem;\n  height: 2.25em;\n  justify-content: flex-start;\n  line-height: 1.5;\n  padding-bottom: calc(0.375em - 1px);\n  padding-left: calc(0.625em - 1px);\n  padding-right: calc(0.625em - 1px);\n  padding-top: calc(0.375em - 1px);\n  position: relative;\n  vertical-align: top;\n  background-color: ', ';\n  border-color: ', ';\n  cursor: pointer;\n  display: block;\n  font-size: 1em;\n  min-width: 200px;\n  max-width: 100%;\n  outline: none;\n  padding-right: 2.5em;\n  position: relative;\n  text-align: left;\n\n  &:focus,\n  &:active {\n    outline: none;\n    border-color: ', ';\n  }\n\n  &[disabled] {\n    cursor: not-allowed;\n    background-color: ', ';\n    border-color: ', ';\n    box-shadow: none;\n    color: ', ';\n\n    &:hover {\n      border-color: ', ';\n    }\n  }\n\n  &:hover {\n    border-color: ', ';\n  }\n'], ['\n  color: ', ';\n\n  -moz-appearance: none;\n  -webkit-appearance: none;\n  align-items: center;\n  border: 1px solid transparent;\n  border-radius: 3px;\n  box-shadow: none;\n  display: inline-flex;\n  font-size: 1rem;\n  height: 2.25em;\n  justify-content: flex-start;\n  line-height: 1.5;\n  padding-bottom: calc(0.375em - 1px);\n  padding-left: calc(0.625em - 1px);\n  padding-right: calc(0.625em - 1px);\n  padding-top: calc(0.375em - 1px);\n  position: relative;\n  vertical-align: top;\n  background-color: ', ';\n  border-color: ', ';\n  cursor: pointer;\n  display: block;\n  font-size: 1em;\n  min-width: 200px;\n  max-width: 100%;\n  outline: none;\n  padding-right: 2.5em;\n  position: relative;\n  text-align: left;\n\n  &:focus,\n  &:active {\n    outline: none;\n    border-color: ', ';\n  }\n\n  &[disabled] {\n    cursor: not-allowed;\n    background-color: ', ';\n    border-color: ', ';\n    box-shadow: none;\n    color: ', ';\n\n    &:hover {\n      border-color: ', ';\n    }\n  }\n\n  &:hover {\n    border-color: ', ';\n  }\n']),
-    select_styled__templateObject2 = select_styled__taggedTemplateLiteral(['\n  display: inline-block;\n  height: 4.25em; // 2.25em + 2em\n  max-width: 100%;\n  position: relative;\n  vertical-align: top;\n  margin: 8px 16px;\n\n  &:after {\n    border: 2px solid ', ';\n    border-right: 0;\n    border-top: 0;\n    content: " ";\n    display: block;\n    height: 0.5em;\n    pointer-events: none;\n    position: absolute;\n    transform: rotate(-45deg);\n    width: 0.5em;\n    right: 1.125em;\n    top: 2.125em; // Wrapper.height / 2 (doesn\'t account for :after.height, but it looks good as is)\n    z-index: 4;\n  }\n\n  &:hover select:after {\n    border-color: ', ';\n  }\n'], ['\n  display: inline-block;\n  height: 4.25em; // 2.25em + 2em\n  max-width: 100%;\n  position: relative;\n  vertical-align: top;\n  margin: 8px 16px;\n\n  &:after {\n    border: 2px solid ', ';\n    border-right: 0;\n    border-top: 0;\n    content: " ";\n    display: block;\n    height: 0.5em;\n    pointer-events: none;\n    position: absolute;\n    transform: rotate(-45deg);\n    width: 0.5em;\n    right: 1.125em;\n    top: 2.125em; // Wrapper.height / 2 (doesn\'t account for :after.height, but it looks good as is)\n    z-index: 4;\n  }\n\n  &:hover select:after {\n    border-color: ', ';\n  }\n']),
+    select_styled__templateObject2 = select_styled__taggedTemplateLiteral(['\n  display: inline-block;\n  height: 4.25em; // 2.25em + 2em\n  max-width: 100%;\n  position: relative;\n  vertical-align: top;\n  margin: 16px;\n\n  &:after {\n    border: 2px solid ', ';\n    border-right: 0;\n    border-top: 0;\n    content: " ";\n    display: block;\n    height: 0.5em;\n    pointer-events: none;\n    position: absolute;\n    transform: rotate(-45deg);\n    width: 0.5em;\n    right: 1.125em;\n    top: 2.125em; // Wrapper.height / 2 (doesn\'t account for :after.height, but it looks good as is)\n    z-index: 4;\n  }\n\n  &:hover select:after {\n    border-color: ', ';\n  }\n'], ['\n  display: inline-block;\n  height: 4.25em; // 2.25em + 2em\n  max-width: 100%;\n  position: relative;\n  vertical-align: top;\n  margin: 16px;\n\n  &:after {\n    border: 2px solid ', ';\n    border-right: 0;\n    border-top: 0;\n    content: " ";\n    display: block;\n    height: 0.5em;\n    pointer-events: none;\n    position: absolute;\n    transform: rotate(-45deg);\n    width: 0.5em;\n    right: 1.125em;\n    top: 2.125em; // Wrapper.height / 2 (doesn\'t account for :after.height, but it looks good as is)\n    z-index: 4;\n  }\n\n  &:hover select:after {\n    border-color: ', ';\n  }\n']),
     styled__templateObject3 = select_styled__taggedTemplateLiteral(['\n  text-align: left;\n  height: 1.5em;\n  color: ', ';\n  font-weight: 300;\n  padding: 0 0 0 10px;\n'], ['\n  text-align: left;\n  height: 1.5em;\n  color: ', ';\n  font-weight: 300;\n  padding: 0 0 0 10px;\n']);
 
 function select_styled__taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
@@ -37445,9 +37445,10 @@ var containers_styled__templateObject = containers_styled__taggedTemplateLiteral
     containers_styled__templateObject3 = containers_styled__taggedTemplateLiteral(['\n  text-align: right;\n'], ['\n  text-align: right;\n']),
     styled__templateObject4 = containers_styled__taggedTemplateLiteral(['\n  max-width: 100px;\n  max-width: 100%;\n  max-height: 100%;\n'], ['\n  max-width: 100px;\n  max-width: 100%;\n  max-height: 100%;\n']),
     styled__templateObject5 = containers_styled__taggedTemplateLiteral(['\n  font-size: 4rem;\n  margin: 20px 0 0 5px; // add a bit more to the left of the + sign\n  font-weight: 100;\n  color: ', ';\n'], ['\n  font-size: 4rem;\n  margin: 20px 0 0 5px; // add a bit more to the left of the + sign\n  font-weight: 100;\n  color: ', ';\n']),
-    styled__templateObject6 = containers_styled__taggedTemplateLiteral(['\n  text-align: center;\n'], ['\n  text-align: center;\n']),
-    styled__templateObject7 = containers_styled__taggedTemplateLiteral(['\n  text-align: center;\n  font-weight: 400;\n  color: ', ';\n'], ['\n  text-align: center;\n  font-weight: 400;\n  color: ', ';\n']),
-    styled__templateObject8 = containers_styled__taggedTemplateLiteral(['\n  margin: 16px;\n  display: block;\n  color: white;\n'], ['\n  margin: 16px;\n  display: block;\n  color: white;\n']);
+    styled__templateObject6 = containers_styled__taggedTemplateLiteral(['\n  text-align: center;\n\n  p {\n    color: #555;\n    margin: 16px 0;\n  }\n'], ['\n  text-align: center;\n\n  p {\n    color: #555;\n    margin: 16px 0;\n  }\n']),
+    styled__templateObject7 = containers_styled__taggedTemplateLiteral(['\n  text-align: center;\n'], ['\n  text-align: center;\n']),
+    styled__templateObject8 = containers_styled__taggedTemplateLiteral(['\n  text-align: center;\n  font-weight: 400;\n  color: ', ';\n'], ['\n  text-align: center;\n  font-weight: 400;\n  color: ', ';\n']),
+    styled__templateObject9 = containers_styled__taggedTemplateLiteral(['\n  margin: 16px;\n  display: block;\n  color: white;\n'], ['\n  margin: 16px;\n  display: block;\n  color: white;\n']);
 
 function containers_styled__taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
@@ -37483,21 +37484,23 @@ var styled_Image = containers_styled___WEBPACK_IMPORTED_MODULE_0_styled_componen
   src: 'sharesight.svg' // just seeing how this works...
 })(styled__templateObject4);
 
-var styled_Title = containers_styled___WEBPACK_IMPORTED_MODULE_0_styled_components__["default"](Box).attrs({
+var Emoji = containers_styled___WEBPACK_IMPORTED_MODULE_0_styled_components__["default"](Box).attrs({
   px: 1,
   width: 1 / 2
 })(styled__templateObject5, colors.black);
 
-var Search = containers_styled___WEBPACK_IMPORTED_MODULE_0_styled_components__["default"].div(styled__templateObject6);
+var styled_Title = containers_styled___WEBPACK_IMPORTED_MODULE_0_styled_components__["default"].div(styled__templateObject6);
 
-var StatusText = containers_styled___WEBPACK_IMPORTED_MODULE_0_styled_components__["default"].h3(styled__templateObject7, colors.black);
+var Search = containers_styled___WEBPACK_IMPORTED_MODULE_0_styled_components__["default"].div(styled__templateObject7);
+
+var StatusText = containers_styled___WEBPACK_IMPORTED_MODULE_0_styled_components__["default"].h3(styled__templateObject8, colors.black);
 
 var Loading = containers_styled___WEBPACK_IMPORTED_MODULE_0_styled_components__["default"](__WEBPACK_IMPORTED_MODULE_1_react_css_loaders__["RotateSpinLoader"]).attrs({
   color: colors.brown,
   size: 10
 })(containers_styled__templateObject);
 
-var styled_Button = containers_styled___WEBPACK_IMPORTED_MODULE_0_styled_components__["default"](button_defaultExport)(styled__templateObject8);
+var styled_Button = containers_styled___WEBPACK_IMPORTED_MODULE_0_styled_components__["default"](button_defaultExport)(styled__templateObject9);
 // CONCATENATED MODULE: ./src/helpers/api.js
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_whatwg_fetch__ = __webpack_require__(624);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_whatwg_fetch___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_whatwg_fetch__);
@@ -37861,15 +37864,24 @@ var containers_Container = function (_React$Component) {
             containers___WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(styled_Image, null)
           ),
           containers___WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            styled_Title,
+            Emoji,
             null,
             '+ \uD83C\uDF7A'
           )
         ),
         this.state.beer ? null : containers___WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          'h3',
+          styled_Title,
           null,
-          'I heard you\'re looking for a beer.'
+          containers___WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'h3',
+            null,
+            'I heard you\'re looking for a beer.'
+          ),
+          containers___WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'p',
+            null,
+            'Pick one below or help us find one to go with what you\'re eating or working on.'
+          )
         ),
         this.state.beer ? null : containers___WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
           Search,
@@ -37881,7 +37893,7 @@ var containers_Container = function (_React$Component) {
           StatusText,
           null,
           this.state.statusText,
-          this.state.loaded && (this.state.beer || !this.state.beers.length) ? containers___WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          this.state.loaded && (this.state.beer || this.state.beers.length <= 1) ? containers___WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             styled_Button,
             { color: 'black', onClick: function onClick() {
                 return _this3.clearBeer();
