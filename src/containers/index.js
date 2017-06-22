@@ -193,7 +193,7 @@ export default class Container extends React.Component {
       <StatusText>
         {this.state.statusText}
 
-        {this.state.loaded && (this.state.beer || !this.state.beers.length)
+        {this.state.loaded && (this.state.beer || this.state.beers.length <= 1)
           ? <Button color='black' onClick={() => this.clearBeer()}>Find Another Beer</Button>
           : null
         }
