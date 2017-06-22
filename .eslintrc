@@ -1,0 +1,20 @@
+{
+  "parser"  : "babel-eslint",
+  "extends" : [
+    "standard",
+    "standard-react"
+  ],
+  "plugins": [
+    "babel",
+    "react",
+    "promise"
+  ],
+  "env"     : {
+    "browser" : true
+  },
+  "rules": {
+    "semi" : [2, "never"],
+    "max-len": [2, 140, 2],
+    "jsx-quotes": [2, "prefer-single"]
+  }
+}
