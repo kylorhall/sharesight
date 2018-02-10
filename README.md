@@ -1,5 +1,5 @@
 ### Running the Project.
- Open index.html or visit https://kylorhall.github.io/sharesight/ in your browser.
+ Open index.html or visit https://kylorhall.github.io/sharesight-interview/ in your browser.
 
 
 ### Building the Project.
